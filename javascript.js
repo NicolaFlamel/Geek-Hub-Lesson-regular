@@ -3,25 +3,11 @@
  */
 ;(function(){
 
-    console.log("\nawdw".match(/^./));//null
-    console.log("\nawdw".match(/^./m));//a
-    /*m-в нашей строке есть переход на новую строку,
-     а значит m определяет переход на новую строку то
-     есть после каждого\n будет првоерять строку
-    */
-    console.log("asd\nawdw".match(/^\d/));//null
-    console.log("1\nasd\nawdw".match(/^\d/));//null
-    console.log("\nasd\n1wdw".match(/^\d/m));//1
-/*
-* \d ищет все числа
-* */
-    console.log("asd\nawdw".match(/\d$/));//null
-    console.log("1\nasd\nawd1".match(/\d$/));//1
-    console.log("\nasd\n1wdw1".match(/\d$/m));//1
+    console.log("13213124124126".match(/\d{2,4}/));//132
+    console.log("13213124124126".match(/\d{8}/g));//13
+    //console.log("13213124124126".match(/^.\d{2,5}$/));//13
+    //{}-возвращает кол значений от - до
 
-    /*
-    * $-end of line
-    * */
 
 
 })();
