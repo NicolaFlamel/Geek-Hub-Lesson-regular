@@ -8,4 +8,7 @@ var first = /./g,
 
     "asd".toLowerCase();
     /d/.test();
+
+    if(/s/.test(email)){ }
+
 })();
