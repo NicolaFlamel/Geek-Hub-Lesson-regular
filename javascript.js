@@ -15,5 +15,13 @@
 /*
 * \d ищет все числа
 * */
+    console.log("asd\nawdw".match(/\d$/));//null
+    console.log("1\nasd\nawd1".match(/\d$/));//1
+    console.log("\nasd\n1wdw1".match(/\d$/m));//1
+
+    /*
+    * $-end of line
+    * */
+
 
 })();
