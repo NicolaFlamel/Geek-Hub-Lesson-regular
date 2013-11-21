@@ -6,6 +6,16 @@
 var first = /./g,
     second = new RegExp('.','g');
 
+
+    ///////////////////
+    var emailPattern=/d/;
+
+
+    function isEmail(email){
+        return emailPattern.test(email);
+    }
+    /////////////////////
+
     "asd".toLowerCase();
     /d/.test();
 
