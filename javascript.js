@@ -2,23 +2,20 @@
  * Created by Артем on 21.11.13.
  */
 ;(function(){
-// . любой один символ
-var first = /./g,
-    second = new RegExp('.','g');
+//g-global возвращает все совпадения
+    //+ - 0 do infinite
+    console.log("asd\nwad".match(/.+/));
 
 
-    ///////////////////
-    var emailPattern=/d/;
+    console.log("".match(/.+/)); //null
+    console.log("asd".match(/.+/)); //asd
+    console.log("".match(/.+/)); //null
+    console.log("asd".match(/./)); //a
+
+    console.log("".match(/.*/)); //pustaya stroka
+    console.log("asd".match(/.*/)); //asd
 
 
-    function isEmail(email){
-        return emailPattern.test(email);
-    }
-    /////////////////////
 
-    "asd".toLowerCase();
-    /d/.test();
-
-    if(/s/.test(email)){ }
 
 })();
