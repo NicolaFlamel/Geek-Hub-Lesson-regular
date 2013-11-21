@@ -15,7 +15,8 @@
     console.log("".match(/.*/)); //pustaya stroka
     console.log("asd".match(/.*/)); //asd
 
-
+    console.log("",match(/.?/)); //""
+    console.log("asd",match(/.?/)); //a
 
 
 })();
