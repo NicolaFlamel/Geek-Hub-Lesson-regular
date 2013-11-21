@@ -5,4 +5,6 @@
 // . любой один символ
 var first = /./g,
     second = new RegExp('.','g');
+
+
 })();
