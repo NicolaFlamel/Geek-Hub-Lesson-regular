@@ -3,9 +3,8 @@
  */
 ;(function(){
 
-    console.log("q1we".match(/[wq\d]+/g));//q1w
-    console.log("q1we".match(/[^wq\d]+/g));//1
+    console.log("max asd srgii".match(/max|srgii/));
+ //  | - мне нужно , что бы была строка "мах" или "srgii"
+    console.log("max asd 3srgii".match(/\d(max|srgii)/g));
 
-   //[asd]-или а или с или d,[] воспринимается как один символ;
-    //[^] _в квадратных дужках ^ означает восклицание
 })();
