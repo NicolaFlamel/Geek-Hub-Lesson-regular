@@ -6,5 +6,6 @@
 var first = /./g,
     second = new RegExp('.','g');
 
-
+    "asd".toLowerCase();
+    /d/.test();
 })();
